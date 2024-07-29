@@ -11,35 +11,21 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Theatre Ticket Booking",
+      description: "theatre ticket booking",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "e commerce",
+      description: "Freelancing E-Commerce Website Using MERN Stack",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Simple XO Game",
+      description: "Using MERN Stack",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    }
+    
   ];
 
   return (
@@ -51,12 +37,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>As a skilled MERN stack developer with a strong foundation in
-MongoDB, Express.js, React, and Node.js, I am dedicated to
-delivering high-quality web and application solutions. I aim to
-leverage my technical.My goal is to drive digital excellence,
-enhance user satisfaction, and continuously grow in a
-collaborative environment.
+                <p>
 </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -86,10 +67,10 @@ collaborative environment.
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p></p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
